@@ -46,7 +46,7 @@ public class ServiceProvider implements Serializable {
     @Column(name = "phone_number", nullable = false)
     private String phoneNumber;
     
-    @Column(name = "logoUrl", nullable = true)
+    @Column(name = "logo_url", nullable = true)
     private String logoUrl;
 
     

@@ -115,4 +115,7 @@ public class WebController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(DefaultResponses.response500(e.getMessage()));
         }
     }
+   
+    
+    //other endpoints for create update and delete can be added aswell.
 }
